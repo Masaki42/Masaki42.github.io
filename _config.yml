@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
+auto: true
+server: true
+lsi: false
+name: Evgeny Matveev's blog
 markdown: redcarpet
 pygments: true
