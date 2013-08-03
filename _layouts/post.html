@@ -7,23 +7,20 @@ comments: yes
 
 <div class="post">
 {{ content }}
-<p>URL: {{ page.url }} and {{ permalink: pretty }}</p>
 </div>
+<br />
 
-
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=198040140362860";
+  js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=198040140362860";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, "script", "facebook-jssdk"));
-</script>
-
-
+}(document, 'script', 'facebook-jssdk'));</script>
 
 {% if page.comments %} 
-<h2>Comments</h2>
-<div class="fb-comments" data-href="http://masaki42.github.io{{ page.url }}" num-posts="10" order_by="reverse_time" width="560"></div>
+<h2>Комментарии</h2>
+<div class="fb-comments" data-href="http://masaki42.github.io{{ page.url }}" data-num-posts="10" data-order_by="reverse_time" data-width="560"></div>
 
 {% endif %}
