@@ -1,9 +1,29 @@
 ---
 layout: default
+comments: yes
 ---
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
 {{ content }}
+<p>URL: {{ page.url }} and {{ permalink: pretty }}</p>
 </div>
+
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=198040140362860";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));
+</script>
+
+
+
+{% if page.comments %} 
+<h2>Comments</h2>
+<div class="fb-comments" data-href="http://masaki42.github.io{{ page.url }}" num-posts="10" order_by="reverse_time" width="560"></div>
+
+{% endif %}
