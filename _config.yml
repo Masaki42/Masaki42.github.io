@@ -1,6 +1,4 @@
-auto: true
-server: true
-lsi: false
+
 name: Путевые заметки (изучающего Rails)
 markdown: redcarpet
 pygments: true
