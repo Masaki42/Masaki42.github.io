@@ -15,31 +15,27 @@
     </head>
     <body>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
+        <div class="wrapper">
+            <header>
+              <img src="/assets/images/me.png">
+              <p>
+                Привет! Меня зовут <strong>Евгений Матвеев</strong>. В данный блог попадают всяческие интересные или нужные мне вещи, которые я почерпнул во время изучения Ruby on Rails.
+              </p>
+              <p>
+                  <a href="http://github.com/Masaki42/">github.com/Masaki42</a><br />
+                  <a href="http://twitter.com/MasterOfCarrots/">twitter.com/MasterOfCarrots</a><br />
+              </p>     
+            </header>
+            <section>
+                <h1 class="title"><a href="/">{{ site.name }}</a></h1>
                 {{ content }}
-
-            <div class="footer">
-              <div class="contact">
+            </section>
+            <footer>
                 <p>
-                  Evgeny Matveev<br />
-                  Rails Padawan<br />
-                  your@email.com
+                  Евгений Матвеев<br />
+                  masaki.tux *at_sign* gmail *dot* com
                 </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
+            </footer>
         </div> <!-- /container -->
 
     </body>

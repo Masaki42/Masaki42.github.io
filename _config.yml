@@ -1,6 +1,6 @@
 auto: true
 server: true
 lsi: false
-name: Evgeny Matveev's blog
+name: Путевые заметки (изучающего Rails)
 markdown: redcarpet
 pygments: true
