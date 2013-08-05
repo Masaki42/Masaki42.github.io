@@ -67,9 +67,16 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
   font-size:90%;
+}
+
+p code {
+  padding: 2px 5px;
+  white-space: nowrap;
+  background-color: #FFC;
+  font:100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 pre {
