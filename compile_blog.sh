@@ -36,7 +36,7 @@ git add -u
 git commit -m "Site updated and generated"
  
 # Push to GitHub
-git push
+git push --force origin fix
  
 # Go back to src like you were never there
 git checkout src
