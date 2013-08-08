@@ -1,3 +1,6 @@
+#!/bin/env ruby
+# coding: utf-8
+
 module Jekyll
   class TagIndex < Page
     def initialize(site, base, dir, tag)
@@ -8,11 +11,11 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
       self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'All posts tagged &ldquo;'
       tag_title_suffix = site.config['tag_title_suffix'] || '&rdquo;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}#{tag_title_suffix}"
+      self.data['title'] = "Все записи с тегом &ldquo;#{tag}#{tag_title_suffix}"
     end
   end
+  
   class TagGenerator < Generator
     safe true
     def generate(site)
