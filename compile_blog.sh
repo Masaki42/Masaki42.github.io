@@ -4,7 +4,7 @@
 cd ~/Masaki42
  
 # Create a new branch, run jekyll
-git checkout -b src
+git checkout src
 jekyll build
  
 # Make some temp directories and save the compiled site to the temp dir
