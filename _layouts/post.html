@@ -20,6 +20,13 @@ comments: yes
 <div class="fb-like" data-href="http://masaki42.github.io{{ page.url }}" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
 </div><br />
 
+<div id="tags_links"><ul>Теги:
+{% for tag in page.tags %}
+<li><a href="/tag/{{ tag }}">{{ tag }}</a></li>
+{% endfor %}
+</ul></div>
+
+
 {% if page.comments %} 
 <h2>Комментарии</h2>
 <div class="fb-comments" data-href="http://masaki42.github.io{{ page.url }}" data-num-posts="10" data-order_by="reverse_time" data-width="560"></div>
