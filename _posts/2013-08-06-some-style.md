@@ -3,7 +3,7 @@ layout: post
 title:  "Немного про дизайн"
 description: "У CodeSchool вышел новый курс про дизайн — судя по первому бесплатному уроку он весьма зачетный..."
 date:   2013-08-06 21:02:00
-tags: [design, typography]
+tags: [design, typography, test]
 ---
 
 У CodeSchool вышел новый [курс про дизайн](http://www.codeschool.com/courses/fundamentals-of-design) — судя по первому бесплатному уроку он весьма зачетный (в нем (в уроке) рассказывают про шрифты ^_^).

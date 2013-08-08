@@ -157,6 +157,11 @@ footer {
 
 /* Tags */
 
+#posts_summ {
+  list-style: none;
+  padding: 0px;
+}
+
 #tags_links ul {
   list-style: none;
   margin-bottom: 25px;
