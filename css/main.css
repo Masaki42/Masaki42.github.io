@@ -97,6 +97,10 @@ blockquote {
   font-style:italic;
 }
 
+blockquote strong {
+  color: #696969;
+}
+
 code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
@@ -105,7 +109,7 @@ code, pre {
 
 p code {
   padding: 2px 5px;
-  white-space: nowrap;
+  _white-space: nowrap;
   background-color: #FFC;
   font:100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
